@@ -8,14 +8,6 @@
 
 import FirebaseFirestore
 
-struct Student: Decodable {
-    let passClass: Int
-    
-    init() {
-        self.passClass = 0
-    }
-}
-
 enum FireError: Error {
     
     case nsError(String)

@@ -16,6 +16,7 @@
 		8B113B0E22D8638400A58674 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B113B0D22D8638400A58674 /* GoogleService-Info.plist */; };
 		8B113B1022D86D4200A58674 /* FireBaseQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B113B0F22D86D4200A58674 /* FireBaseQueryManager.swift */; };
 		8B113B1222D879ED00A58674 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B113B1122D879ED00A58674 /* ViewModel.swift */; };
+		8B113B1522D8850E00A58674 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B113B1422D8850E00A58674 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8B113B0D22D8638400A58674 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8B113B0F22D86D4200A58674 /* FireBaseQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseQueryManager.swift; sourceTree = "<group>"; };
 		8B113B1122D879ED00A58674 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8B113B1422D8850E00A58674 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				8B113AFB22D8629F00A58674 /* AppDelegate.swift */,
 				8B113AFD22D8629F00A58674 /* ViewController.swift */,
 				8B113B1122D879ED00A58674 /* ViewModel.swift */,
+				8B113B1422D8850E00A58674 /* Model.swift */,
 				8B113B0F22D86D4200A58674 /* FireBaseQueryManager.swift */,
 				8B113AFF22D8629F00A58674 /* Main.storyboard */,
 				8B113B0222D862A000A58674 /* Assets.xcassets */,
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B113B1522D8850E00A58674 /* Model.swift in Sources */,
 				8B113AFE22D8629F00A58674 /* ViewController.swift in Sources */,
 				8B113B1022D86D4200A58674 /* FireBaseQueryManager.swift in Sources */,
 				8B113B1222D879ED00A58674 /* ViewModel.swift in Sources */,
